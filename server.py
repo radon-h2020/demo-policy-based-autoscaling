@@ -18,9 +18,7 @@ def webhook_api_prometheus():
     if request.headers['Content-Type'] == 'application/json':
         print ("json file received ")
         my_date = json.dumps(request.json)
-       # print (my_date)
-        
-        
+
         dict_info = json.loads(my_date)
         for i in dict_info['alerts']:
             alert =i['labels']['alertname']
