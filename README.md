@@ -44,7 +44,7 @@ If the ‘nova list’ gives the list of servers deployed in Openstack, it confi
 
 ```
 (.venv) $ eval `ssh-agent`
-(.venv) $ ssh pathToKey/KeyName.pem
+(.venv) $ ssh-add pathToKey/KeyName.pem
 (.venv) $ ssh-add -L
 ```
 Now access configurations are done. The initial/base deployment of the server before starting the auto-scaler agent, assuming that the service.yaml file is ready to use
