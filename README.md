@@ -6,4 +6,4 @@ This folder containts source codes of auto-scaling of VM instances with CSAR usi
 
 
 # autoscaling-witout-csar
-This folder containts source codes of auto-scaling of VM instances without CSAR using Prometheus and xOpera Orchestrator. This policy automatically scale the services by modifying their TOSCA service template with an autoscaler agent, which utilizes RADON monitoring (Prometheus and Alertmanager) to receive scaling related events, modifies the service template to scale it up or down as required.
+This folder containts source codes of auto-scaling of VM instances without CSAR using Prometheus and xOpera Orchestrator. This policy automatically scale the services by modifying their TOSCA service template with an autoscaler agent, which utilizes RADON monitoring tool (Prometheus and Alertmanager) to receive scaling related events, modifies the service template to scale it up or down as required.
